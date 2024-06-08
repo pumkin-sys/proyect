@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Definir el tema de la aplicación -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!-- Desactivar la barra de acción predeterminada -->
+        <item name="windowActionBar">false</item>
+        <!-- Ocultar el título de la ventana de la actividad -->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- Definir el estilo para el Toolbar -->
+    <style name="TransparentToolbar" parent="Widget.MaterialComponents.Toolbar">
+        <!-- Fondo transparente -->
+        <item name="android:background">@android:color/transparent</item>
+        <!-- Establecer título vacío -->
+        <item name="android:title"></item>
+    </style>
+</resources>
